@@ -5,8 +5,6 @@ import './App.css';
 
 function App() {
   const [tableData, setTableData] = useState(jsonData);
-
-
   return (
     <div>
       <Table tableData={tableData} setTableData={setTableData} />
