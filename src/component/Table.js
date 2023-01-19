@@ -50,7 +50,7 @@ const Table = (props) => {
                 <td className='w-1/4 justify-center items-center flex'>{info.id}</td>
                 <td className='w-1/4 justify-center items-center flex'>{info.name}</td>
                 <td className='w-1/4 justify-center items-center flex'>{info.password}</td>
-                <td className='w-1/4 justify-evenly items-center flex'><button onClick={() => onHandleUpdate(info)} className=' bg-slate-900 text-white font-mono p-2 rounded'><img src={EditIcon} alt="" /></button> <button onClick={() => onHandleDelete(info)} className='bg-slate-900 text-white font-mono p-2 rounded'><img src={DeleteIcon} alt="" /></button></td>
+                <td className='w-1/4 justify-evenly items-center flex'><button onClick={() => onHandleUpdate(info)} className='ml-2 bg-slate-900 text-white font-mono p-2 rounded'><img src={EditIcon} alt="" /></button> <button onClick={() => onHandleDelete(info)} className='bg-slate-900 text-white font-mono p-2 rounded'><img src={DeleteIcon} alt="" /></button></td>
             </tr>
 
         );
