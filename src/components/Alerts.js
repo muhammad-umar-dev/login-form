@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Alerts = (props) => {
-    console.log(props.alert)
+    // console.log(props.alert)
     return (
         <>
             {/* <Alert className='flex justify-center items-center w-full h-16 text-white text-2xl bg-slate-700'> Hello</Alert> */}
